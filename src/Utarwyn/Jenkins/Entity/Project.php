@@ -162,7 +162,7 @@ class Project extends JenkinsEntity
     public function getBuild(int $id): Build
     {
         try {
-            return new Build($this, $id);
+            return new Build($this->client, $this, $id);
         } catch (Exception $e) {
             return null;
         }
