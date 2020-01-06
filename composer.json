@@ -1,5 +1,5 @@
 {
-    "name": "antonodintsov/jenkins-php-api-1",
+    "name": "antonodintsov/jenkins-php-api",
     "description": "A complete PHP API for Jenkins CI.",
     "type": "library",
     "keywords": ["jenkins", "ci", "api", "php", "web"],
