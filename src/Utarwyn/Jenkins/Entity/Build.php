@@ -219,4 +219,12 @@ class Build extends JenkinsEntity
     {
         return $this->client->get("job/{$this->project->getName()}/{$this->id}/consoleText", true);
     }
+
+    /**
+     * @return array
+     */
+    public function getEnvironmentVariables()
+    {
+        return (array)$this->client->get("job/{$this->project->getName()}/{$this->id}/injectedEnvVars/api/json")->envMap;
+    }
 }
