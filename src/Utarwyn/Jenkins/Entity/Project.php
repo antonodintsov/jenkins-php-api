@@ -157,7 +157,7 @@ class Project extends JenkinsEntity
 
     /**
      * @param int $id
-     * @return Build
+     * @return null|Build
      */
     public function getBuild(int $id): Build
     {
