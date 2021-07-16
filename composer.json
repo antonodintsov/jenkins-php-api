@@ -3,7 +3,7 @@
     "description": "A complete PHP API for Jenkins CI.",
     "type": "library",
     "keywords": ["jenkins", "ci", "api", "php", "web"],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "Apache-2.0",
     "authors": [
         {
